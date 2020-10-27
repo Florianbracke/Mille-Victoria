@@ -1,0 +1,67 @@
+body {
+  display: grid;
+  grid-template-rows: auto auto 160%  auto;
+  grid-template-columns: 15% 1fr 1fr;
+  grid-gap: 16px;
+  background-image: url("burntsienna.jpg");
+}
+
+.Unknown{
+
+}
+
+header {
+  margin-top:10px;
+  background: rgb(179,99,25);
+background: linear-gradient(90deg, rgba(179,99,25,1) 0%, rgba(233,178,36,1) 25%, rgba(179,99,25,0.4995040252429097) 50%, rgba(233,178,36,1) 75%, rgba(179,99,25,1) 100%);
+  grid-column-start: span 3;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+  
+}
+
+nav {
+  background-color: rgb(250, 237, 221);
+  grid-row-start: 2;
+  grid-row-end: 4;
+  
+  Border: 2 px solid black;
+  border-radius: 25px;
+ 
+}
+button{
+  margin-top: 48px;
+  padding: 15px;
+  border: 1px gold;
+  display: grid;
+  left: 15%;
+  top: 15%;
+  border-radius: 25px;
+  align-content: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(155, 51, 4)  ;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.button:hover {
+  background-color: #d8c987; 
+  color: white;
+}
+
+.mainblock {
+  font-family: sans-serif;
+  background-color: rgb(250, 237, 221);
+  grid-row: 2 / span 2;
+  grid-column: 2 / span 2;
+  padding: 50px;
+  border: 2px black;
+  border-radius: 25px;
+  opacity: 0.75;
+}
+footer {
+  border-radius: 25px;
+  grid-column-start: span 3;
+  background-color: rgb(250, 237, 221);
+}

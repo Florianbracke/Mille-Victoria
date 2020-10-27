@@ -1,0 +1,9 @@
+.copyright {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background: aqua;
+}
+
+/*# sourceMappingURL=main.csss.map */

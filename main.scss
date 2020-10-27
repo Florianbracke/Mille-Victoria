@@ -1,0 +1,24 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav mainblock mainblock"
+    "nav mainblock mainblock";
+    grid-template-rows: 60px 140% 30px;
+    grid-template-columns: 20% 1fr 20%;
+}
+
+header {
+    grid-area: header;
+    text-align: center;
+}
+
+.nav {
+    grid-area: nav;
+    background-color: aquamarine;
+}
+
+.mainblock {
+    grid-area: mainblock;
+   
+}
