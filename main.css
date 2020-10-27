@@ -58,9 +58,34 @@ button{
   border: 2px black;
   border-radius: 25px;
   opacity: 0.75;
+
+    display: grid;
+    grid-template-rows: 1fr  1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
 }
 footer {
   border-radius: 25px;
   grid-column-start: span 3;
   background-color: rgb(250, 237, 221);
+}
+
+.one {
+  background-color: rgb(235, 219, 199);
+  
+}
+
+.two {
+  background-color: rgb(235, 219, 199);
+  
+}
+
+.three {
+  background-color: rgb(235, 219, 199);
+  
+}
+
+.four {
+  background-color: rgb(235, 219, 199);
+  
 }
