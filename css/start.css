@@ -44,6 +44,7 @@ body {
   .button:hover {
     background-color: #d8c987; 
     color: white;
+    cursor: pointer;
   }
   
   .mainblock {
